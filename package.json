@@ -1,6 +1,27 @@
 {
+  "name": "main",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "seed": "node ./db/seed.sql",
+    "start": "node index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
   "dependencies": {
+    "console.table": "^0.10.0",
     "inquirer": "^8.2.4",
     "mysql2": "^3.3.2"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cameronoberlies/Module-12-challenge.git"
+  },
+  "bugs": {
+    "url": "https://github.com/cameronoberlies/Module-12-challenge/issues"
+  },
+  "homepage": "https://github.com/cameronoberlies/Module-12-challenge#readme"
 }
